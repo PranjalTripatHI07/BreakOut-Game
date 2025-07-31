@@ -240,7 +240,7 @@ _Made with ❤️ and Python_
 
 <div align="center">
 
-![Breakout Game Demo](Recording%202025-07.gif)
+![Breakout Game Demo](Game_demo.gif)
 
 
 _Screenshot placeholder - Replace with actual game footage_
