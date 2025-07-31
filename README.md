@@ -1,4 +1,3 @@
-
 # 🎮 Breakout - Interactive Edition
 
 <div align="center">
@@ -8,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
 
-*A modern take on the classic Breakout arcade game with stunning visual effects!*
+_A modern take on the classic Breakout arcade game with stunning visual effects!_
 
 </div>
 
@@ -17,12 +16,14 @@
 ## 🌟 Features
 
 ### 🎯 **Core Gameplay**
+
 - **Classic Breakout Mechanics** - Break all blocks to win!
 - **Mouse-Controlled Paddle** - Smooth and responsive controls
 - **Progressive Block Destruction** - Blocks require multiple hits based on strength
 - **Dynamic Ball Physics** - Realistic collision detection and movement
 
 ### ✨ **Visual Effects**
+
 - **Particle System** - Beautiful particle explosions when blocks are destroyed
 - **Ball Trail Effect** - Smooth trailing animation behind the ball
 - **Paddle Glow** - Dynamic glow effect when paddle moves
@@ -30,6 +31,7 @@
 - **Animated Background** - Subtle floating elements for atmosphere
 
 ### 🎮 **Enhanced Features**
+
 - **Combo System** - Chain block destruction for bonus points
 - **Real-time Scoring** - Dynamic score calculation with combo multipliers
 - **Smooth Animations** - 60 FPS gameplay with fluid movements
@@ -40,6 +42,7 @@
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 ```bash
 # Python 3.7 or higher
 python --version
@@ -49,6 +52,7 @@ pip install pygame
 ```
 
 ### Installation & Running
+
 ```bash
 # Clone the repository
 git clone [your-repo-url]
@@ -64,20 +68,22 @@ python Break_Out_game.py
 
 <div align="center">
 
-| Action | Control |
-|--------|---------|
-| **Move Paddle** | Move your mouse left/right |
-| **Start Game** | Click anywhere on screen |
-| **Restart** | Click after game over/victory |
+| Action          | Control                       |
+| --------------- | ----------------------------- |
+| **Move Paddle** | Move your mouse left/right    |
+| **Start Game**  | Click anywhere on screen      |
+| **Restart**     | Click after game over/victory |
 
 </div>
 
 ### 🎯 **Objective**
+
 Destroy all colored blocks by bouncing the ball off your paddle. Don't let the ball fall off the bottom of the screen!
 
 ### 🏆 **Scoring System**
+
 - **Blue Blocks** (3 hits): 30 points (15 for partial damage)
-- **Yellow Blocks** (2 hits): 20 points (10 for partial damage)  
+- **Yellow Blocks** (2 hits): 20 points (10 for partial damage)
 - **Orange Blocks** (1 hit): 10 points
 - **Combo Bonus**: +5 points per combo level
 
@@ -86,6 +92,7 @@ Destroy all colored blocks by bouncing the ball off your paddle. Don't let the b
 ## 🏗️ Code Architecture
 
 ### 📁 **Project Structure**
+
 ```
 Break Out Game Python Project/
 ├── Break_Out_game.py          # Main game file
@@ -96,12 +103,14 @@ Break Out Game Python Project/
 ### 🔧 **Key Classes & Functions**
 
 #### **Classes**
+
 - **`Particle`** - Handles particle effects and animations
 - **`wall`** - Manages block creation, destruction, and rendering
 - **`paddle`** - Controls paddle movement and collision detection
 - **`game_ball`** - Manages ball physics, collisions, and trail effects
 
 #### **Core Functions**
+
 - **`create_particles()`** - Generates particle explosions
 - **`draw_text()`** - Renders text with optional glow effects
 - **`draw_ui()`** - Displays score, level, and combo information
@@ -112,9 +121,10 @@ Break Out Game Python Project/
 ## 🎨 Visual Design
 
 ### 🎨 **Color Palette**
+
 ```python
 Background     # (234, 218, 184) - Warm beige
-Orange Blocks  # (255, 165, 0)   - Vibrant orange  
+Orange Blocks  # (255, 165, 0)   - Vibrant orange
 Yellow Blocks  # (255, 255, 0)   - Bright yellow
 Blue Blocks    # (69, 177, 232)  - Sky blue
 Paddle         # (142, 135, 123) - Neutral brown
@@ -122,6 +132,7 @@ Text           # (78, 81, 139)   - Dark purple
 ```
 
 ### ✨ **Special Effects**
+
 - **Pulsing Animation** - Blocks pulse with sine wave calculations
 - **Glow Effects** - Text and paddle glow with movement
 - **3D Block Rendering** - Inner highlights create depth
@@ -132,6 +143,7 @@ Text           # (78, 81, 139)   - Dark purple
 ## 🔧 Customization
 
 ### 🎮 **Game Settings**
+
 ```python
 # In Break_Out_game.py, modify these variables:
 screen_width = 600      # Game window width
@@ -142,6 +154,7 @@ fps = 60               # Frames per second
 ```
 
 ### 🎨 **Visual Tweaks**
+
 ```python
 # Particle system
 particles = []         # Modify particle count and behavior
@@ -157,12 +170,14 @@ self.speed_max = 5    # Maximum ball speed
 ## 🛠️ Technical Features
 
 ### ⚡ **Performance Optimizations**
+
 - Efficient collision detection with threshold-based checking
 - Optimized particle system with automatic cleanup
 - Smart rendering with active block checking
 - 60 FPS locked frame rate for smooth gameplay
 
 ### 🎯 **Game Mechanics**
+
 - **Collision System** - Precise edge detection for realistic physics
 - **Combo Tracking** - Time-based combo system (1-second window)
 - **Block Strength** - Multi-hit blocks with visual feedback
@@ -173,18 +188,20 @@ self.speed_max = 5    # Maximum ball speed
 ## 🐛 Troubleshooting
 
 ### Common Issues
-| Issue | Solution |
-|-------|----------|
-| **Game won't start** | Ensure Pygame is installed: `pip install pygame` |
-| **Slow performance** | Check if other applications are using CPU/GPU |
-| **No sound** | This version focuses on visuals (sound can be added) |
-| **Controls not responsive** | Make sure game window has focus |
+
+| Issue                       | Solution                                             |
+| --------------------------- | ---------------------------------------------------- |
+| **Game won't start**        | Ensure Pygame is installed: `pip install pygame`     |
+| **Slow performance**        | Check if other applications are using CPU/GPU        |
+| **No sound**                | This version focuses on visuals (sound can be added) |
+| **Controls not responsive** | Make sure game window has focus                      |
 
 ---
 
 ## 🚀 Future Enhancements
 
 ### 🎯 **Planned Features**
+
 - [ ] **Sound Effects** - Block destruction and paddle hit sounds
 - [ ] **Power-ups** - Multi-ball, paddle size, ball speed modifiers
 - [ ] **Multiple Levels** - Progressive difficulty with different layouts
@@ -193,6 +210,7 @@ self.speed_max = 5    # Maximum ball speed
 - [ ] **Mobile Support** - Touch controls for mobile devices
 
 ### 🎨 **Visual Improvements**
+
 - [ ] **Better Animations** - Block destruction sequences
 - [ ] **Themed Backgrounds** - Different visual themes
 - [ ] **Particle Variety** - Different particle types per block
@@ -206,14 +224,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-
 <div align="center">
 
 ### 🎮 **Ready to Play?**
 
 **[Download Now](.) • [Report Bug](.) • [Request Feature](.)**
 
-*Made with ❤️ and Python*
+_Made with ❤️ and Python_
 
 </div>
 
@@ -222,15 +239,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📊 Game Statistics
 
 <div align="center">
-![Alt text for your GIF]()
-![Game Demo](https://via.placeholder.com/600x400/69B7E8/FFFFFF?text=Breakout+Game+Demo)
-<img width="747" height="787" alt="image" src="https://github.com/user-attachments/assets/42c0294a-a1e7-4c4b-89de-3be160707e6f" />
 
-*Screenshot placeholder - Replace with actual game footage*
+![Breakout Game Demo](Recording%202025-07.gif)
+
+
+_Screenshot placeholder - Replace with actual game footage_
 
 </div>
 
 ### 🎯 **Game Metrics**
+
 - **Total Blocks**: 36 (6x6 grid)
 - **Block Types**: 3 (varying strength levels)
 - **Maximum Score**: 1,080 points (without combos)
