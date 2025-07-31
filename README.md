@@ -13,6 +13,23 @@ _A modern take on the classic Breakout arcade game with stunning visual effects!
 
 ---
 
+## 📊 Game Demo
+
+<div align="center">
+
+![Breakout Game Demo](Game_demo.gif)
+
+
+
+
+</div>
+
+---
+
+
+
+
+
 ## 🌟 Features
 
 ### 🎯 **Core Gameplay**
@@ -38,6 +55,9 @@ _A modern take on the classic Breakout arcade game with stunning visual effects!
 - **Victory/Game Over Screens** - Polished UI with centered text and effects
 
 ---
+
+
+
 
 ## 🚀 Quick Start
 
@@ -236,16 +256,7 @@ _Made with ❤️ and Python_
 
 ---
 
-## 📊 Game Demo
 
-<div align="center">
-
-![Breakout Game Demo](Game_demo.gif)
-
-
-
-
-</div>
 
 ### 🎯 **Game Metrics**
 
