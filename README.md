@@ -4,7 +4,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue?style=for-the-badge&logo=python)
 ![Pygame](https://img.shields.io/badge/Pygame-2.0%2B-green?style=for-the-badge&logo=pygame)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+![License](https://img.shields.io/badge/License-PranjalTripathi-yellow?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
 
 _A modern take on the classic Breakout arcade game with stunning visual effects!_
@@ -220,7 +220,7 @@ self.speed_max = 5    # Maximum ball speed
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Pranjal Tripathi License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
