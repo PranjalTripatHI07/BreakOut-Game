@@ -236,7 +236,7 @@ _Made with ❤️ and Python_
 
 ---
 
-## 📊 Game Statistics
+## 📊 Game Demo
 
 <div align="center">
 
