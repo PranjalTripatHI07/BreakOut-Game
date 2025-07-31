@@ -224,6 +224,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
 
 ![Game Demo](https://via.placeholder.com/600x400/69B7E8/FFFFFF?text=Breakout+Game+Demo)
+<img width="747" height="787" alt="image" src="https://github.com/user-attachments/assets/42c0294a-a1e7-4c4b-89de-3be160707e6f" />
 
 *Screenshot placeholder - Replace with actual game footage*
 
