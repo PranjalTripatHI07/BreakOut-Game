@@ -243,7 +243,7 @@ _Made with ❤️ and Python_
 ![Breakout Game Demo](Game_demo.gif)
 
 
-_Screenshot placeholder - Replace with actual game footage_
+
 
 </div>
 
